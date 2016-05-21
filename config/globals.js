@@ -9,7 +9,7 @@
  * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.globals.html
  */
 module.exports.globals = {
-
+  hookTimeout: 200000,
   /****************************************************************************
   *                                                                           *
   * Expose the lodash installed in Sails core as a global variable. If this   *
