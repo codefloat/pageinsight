@@ -51,11 +51,11 @@ module.exports.connections = {
 
   openshift: {
     adapter: 'sails-mysql',
-    host: process.env.OPENSHIFT_MYSQL_DB_HOST,
+    host: 'localhost',
     user: 'adminATcLDnS',
     password: 'Psy4KMCJJuWk',
     database: 'pageinsight',
-    port: process.env.OPENSHIFT_MYSQL_DB_PORT
+    port: 3306
   },
 
   /***************************************************************************
