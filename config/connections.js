@@ -55,7 +55,7 @@ module.exports.connections = {
     user: 'adminATcLDnS',
     password: 'Psy4KMCJJuWk',
     database: 'pageinsight',
-    port: 3306
+    port: process.env.OPENSHIFT_MYSQL_DB_PORT
   },
 
   /***************************************************************************
