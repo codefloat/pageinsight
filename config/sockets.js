@@ -11,7 +11,7 @@
  */
 
 module.exports.sockets = {
-  port: 8000,
+  port: proces.env.OPENSHIFT_NODEJS_PORT,
 
   /***************************************************************************
   *                                                                          *
