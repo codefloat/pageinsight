@@ -11,7 +11,7 @@
  */
 
 module.exports.sockets = {
-  port: proces.env.OPENSHIFT_NODEJS_PORT,
+
 
   /***************************************************************************
   *                                                                          *
